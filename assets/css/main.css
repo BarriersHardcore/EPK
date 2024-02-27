@@ -1,0 +1,206 @@
+body {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+body:before, body:after {
+  content: "";
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+body:before {
+  top: 0;
+}
+body:after {
+  bottom: 0;
+}
+
+h2, h3 {
+  font-family: "Burnaby Stencil V2";
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
+  line-height: 1.1;
+}
+
+h2 {
+  color: #FCEE22;
+  font-size: 4.063rem;
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 3.438rem;
+  }
+}
+
+h3 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.563rem;
+}
+
+strong {
+  font-weight: 800;
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: #FCEE22;
+}
+
+.button {
+  display: inline-block;
+  margin: 1.5rem 0 0;
+  font-family: "Burnaby Stencil V2";
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
+  font-size: 2.5rem;
+  text-decoration: none;
+  line-height: 1.1;
+}
+
+ul.social-links {
+  margin: 0;
+  padding: 0;
+}
+ul.social-links li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.6rem;
+}
+ul.social-links li a {
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
+}
+
+.carousel {
+  margin: 0 0 1rem;
+}
+
+main {
+  background-image: url("../img/bg-1.png");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+main > section.section-1 {
+  background: rgba(230, 27, 114, 0.75);
+  text-align: center;
+  padding: 14rem 0;
+}
+main > section.section-1 img {
+  max-width: 900px;
+}
+main > section.section-1 ul.nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+main > section.section-1 ul.nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+main > section.section-1 ul.nav li a {
+  font-size: 2.813rem;
+  font-family: "Burnaby Stencil V2";
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+main > section.section-2 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 6rem 0;
+}
+main > section.section-2 p:last-of-type {
+  margin: 0;
+}
+main > section.section-3 {
+  text-align: center;
+  background: rgba(1, 42, 62, 0.75);
+  padding: 6rem 0;
+}
+main > section.section-3 iframe {
+  margin: 1rem 0 1.5rem;
+}
+main > section.section-4 {
+  text-align: center;
+  background: rgba(0, 169, 158, 0.75);
+  padding: 6rem 0;
+}
+main > section.section-4 h2 {
+  margin: 0 0 1.5rem;
+}
+main > section.section-4 iframe:first-of-type {
+  margin: 0 0 1.5rem;
+}
+main > section.section-4 .button {
+  margin-bottom: 2rem;
+}
+main > section.section-5 {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 6rem 0;
+}
+main > section.section-5 h2 {
+  margin: 0 0 1.5rem;
+}
+main > section.section-5 .col-lg-3 {
+  text-align: left;
+}
+main > section.section-6 {
+  text-align: center;
+  background: rgba(230, 27, 114, 0.75);
+  padding: 6rem 0;
+}
+main > section:before {
+  content: "";
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 55%, rgba(0, 0, 0, 0.0732493681) 100%);
+  position: fixed;
+  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  z-index: 0;
+}
+main > section * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  main {
+    background-size: cover;
+  }
+}
+@media (max-width: 576px) {
+  main {
+    background-position: left -150px bottom 0;
+  }
+  main > section.section-1 {
+    padding: 7rem 0 6rem 0;
+  }
+  main > section.section-1 img {
+    margin-bottom: 1.5rem;
+  }
+  main > section.section-1 ul.nav li {
+    padding: 0 1.3rem;
+  }
+  main > section.section-1 ul.nav li a {
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
