@@ -1,6 +1,19 @@
 @import "assets/variables.scss";
 @import "assets/mixins.scss";
 
+@font-face{
+    font-family: "Burnaby Stencil V2";
+    src: url("../fonts/a7eebfaa6f0a967adf187657ff306d8b.eot");
+    src: url("../fonts/a7eebfaa6f0a967adf187657ff306d8b.eot?#iefix")format("embedded-opentype"),
+         url("../fonts/a7eebfaa6f0a967adf187657ff306d8b.woff")format("woff"),
+         url("../fonts/a7eebfaa6f0a967adf187657ff306d8b.woff2")format("woff2"),
+         url("../fonts/a7eebfaa6f0a967adf187657ff306d8b.ttf")format("truetype"),
+         url("../fonts/a7eebfaa6f0a967adf187657ff306d8b.svg#Burnaby Stencil V2")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
 body {
 	font-size: 1rem;
 	padding: 1rem;
