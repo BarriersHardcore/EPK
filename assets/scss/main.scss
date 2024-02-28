@@ -1,0 +1,170 @@
+@import "assets/variables.scss";
+@import "assets/mixins.scss";
+
+// base styles
+@import "assets/baseStyles.scss";
+
+// components
+@import "assets/components/button.scss";
+@import "assets/components/socialLinks.scss";
+@import "assets/components/carousel.scss";
+
+main {
+	&:before {
+		content: '';
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 1rem;
+		right: 1rem;
+		background-image: url('../img/bg-1.png'); 
+		background-size: cover;
+		background-repeat: no-repeat;
+		z-index: 0;
+	}
+	> section {
+		position: relative;
+		z-index: 2;
+		@include section-padding;
+		text-align: center;
+		&.section-1 {
+			background: rgba($pink, 0.75);
+			padding: 14rem 0;
+			img {
+				max-width: 900px;
+			}
+			ul.nav {
+				display: block;
+				margin: 0;
+				padding: 0;
+				li {
+					display: inline-block;
+					margin: 0;
+					padding: 0 1.5rem;
+					a {
+						font-size: 2.813rem;
+						@include display-font;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		&.section-2 {
+			background: rgba(#000, 0.75);
+			p:last-of-type {
+				margin: 0;
+			}
+		}
+		&.section-3 {
+			background: rgba($dark-teal, 0.75);
+			iframe {
+				margin: 1rem 0 1.5rem;
+			}		
+		}
+		&.section-4 {
+			background: rgba($teal, 0.75);
+			h2 {
+				margin: 0 0 1.5rem;
+			}
+			iframe:first-of-type {
+				margin: 0 0 1.5rem;
+			}
+			.button {
+				margin-bottom: 2rem;
+			}
+		}
+		&.section-5 {
+			background: rgba(#000, 0.75);
+			h2 {
+				margin: 0 0 1.5rem;
+			}
+			.col-lg-6 {
+				text-align: left;
+			}
+		}
+		&.section-6 {
+			background: rgba($pink, 0.75);
+			@include section-padding;
+		}
+	}
+	&:after {
+		content: '';
+		background: radial-gradient(circle, rgba(255,255,255,0) 55%, rgba(0,0,0,1) 100%);
+		position: fixed;
+		top: 1rem;
+		bottom: 1rem;
+		left: 1rem;
+		right: 1rem;
+		z-index: 1;
+	}
+}
+
+// responsive styles
+@media (max-width: 992px) { 
+	main {
+		> section.section-5 .col-lg-6 {
+			text-align: center;
+		}
+		&:after {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	body {
+		padding: 0;
+		&:before,
+		&:after {
+			display: none;
+		}
+	}
+	main {
+		&:before {
+	      	background: url('../img/bg-1.png') top right -150px no-repeat scroll;
+	      	background-size: auto 100vh;
+	      	left: 0;
+	      	right: 0;
+	  	}
+		> section {
+			&.section-1 {
+				background: rgba($pink, 0.85);
+				padding: 4rem 0;
+				img {
+					margin-bottom: 1.5rem;
+				}
+				ul.nav li {
+					padding: 0 1.3rem;
+					a {
+						font-size: 2.5rem;
+					}
+				}
+			}
+			&.section-2 {
+				background: rgba(#000, 0.85);
+			}
+			&.section-3 {
+				background: rgba($dark-teal, 0.85);
+			}
+			&.section-4 {
+				background: rgba($teal, 0.85);
+				iframe {
+					height: 230px !important;
+				}
+			}
+			&.section-5 {
+				background: rgba(#000, 0.85);
+			}
+			&.section-6 {
+				background: rgba($pink, 0.85);
+			}
+		}
+	}
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+// @media (min-width: 1400px) {}
+// X-Large devices (large desktops, 1200px and up)
+// @media (max-width: 1200px) {}
+// Large devices (desktops, 992px and up)
+// @media (max-width: 992px) {}

@@ -1,0 +1,12 @@
+@mixin display-font {
+	font-family: "Burnaby Stencil V2";
+	text-transform: uppercase;
+	text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0,0,0,0);
+}
+
+@mixin section-padding {
+	padding: 6rem 0;
+	@media (max-width: 576px) {
+		padding: 3rem 0;
+	}
+}
