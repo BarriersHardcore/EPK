@@ -121,8 +121,11 @@ main {
 	}
 	main {
 		&:before {
-	      background: url('../img/bg-2.png') top right -300px no-repeat scroll;
-	      	background-size: auto 100vh;
+	        //background: url('../img/bg-2.png') top left 0 no-repeat scroll;
+	      	//background-size: auto 100vh;
+	        background: url('../img/bg-2.png') no-repeat;
+			background-size: cover;
+			background-position: top center;
 	      	left: 0;
 	      	right: 0;
 	  	}
