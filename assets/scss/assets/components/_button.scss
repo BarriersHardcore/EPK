@@ -3,7 +3,7 @@
 .button {
 	display: inline-block;
 	margin: 1.5rem 0 0;
-	@include display-font;
+	@include barlow-bold;
 	font-size: 2.5rem;
 	text-decoration: none;
 	line-height: 1.1;

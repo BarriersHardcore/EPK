@@ -31,7 +31,7 @@ main {
 			background: rgba($pink, 0.65);
 			padding: 14rem 0;
 			img {
-				max-width: 900px;
+				max-width: 800px;
 			}
 			ul.nav {
 				display: block;
@@ -43,7 +43,7 @@ main {
 					padding: 0 1.5rem;
 					a {
 						font-size: 2.813rem;
-						@include display-font;
+						@include barlow-bold;
 						text-decoration: none;
 					}
 				}
@@ -56,13 +56,13 @@ main {
 			}
 		}
 		&.section-3 {
-			background: rgba($dark-teal, 0.65);
+			background: rgba($red, 0.65);
 			iframe {
 				margin: 1rem 0 1.5rem;
 			}		
 		}
 		&.section-4 {
-			background: rgba($teal, 0.65);
+			background: rgba($green, 0.65);
 			h2 {
 				margin: 0 0 1.5rem;
 			}
