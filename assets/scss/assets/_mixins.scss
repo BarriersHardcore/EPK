@@ -1,7 +1,8 @@
-@mixin display-font {
-	font-family: "Burnaby Stencil V2";
+@mixin barlow-bold {
+	font-family: "Barlow Condensed", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	text-transform: uppercase;
-	text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0,0,0,0);
 }
 
 @mixin section-padding {

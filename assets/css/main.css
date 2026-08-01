@@ -29,14 +29,15 @@ body:after {
 }
 
 h2, h3 {
-  font-family: "Burnaby Stencil V2";
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
-  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
   line-height: 1.1;
 }
 
 h2 {
-  color: #FCEE22;
+  color: #fff;
   font-size: 4.063rem;
 }
 @media (max-width: 576px) {
@@ -64,15 +65,16 @@ a {
   color: #fff;
 }
 a:hover {
-  color: #FCEE22;
+  color: #10f1fc;
 }
 
 .button {
   display: inline-block;
   margin: 1.5rem 0 0;
-  font-family: "Burnaby Stencil V2";
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
-  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
   font-size: 2.5rem;
   text-decoration: none;
   line-height: 1.1;
@@ -89,7 +91,6 @@ ul.social-links li {
 }
 ul.social-links li a {
   font-size: 2.5rem;
-  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
 }
 
 .carousel {
@@ -120,11 +121,11 @@ main > section {
   }
 }
 main > section.section-1 {
-  background: rgba(230, 27, 114, 0.65);
+  background: rgba(255, 0, 143, 0.65);
   padding: 14rem 0;
 }
 main > section.section-1 img {
-  max-width: 900px;
+  max-width: 800px;
 }
 main > section.section-1 ul.nav {
   display: block;
@@ -138,9 +139,10 @@ main > section.section-1 ul.nav li {
 }
 main > section.section-1 ul.nav li a {
   font-size: 2.813rem;
-  font-family: "Burnaby Stencil V2";
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   text-transform: uppercase;
-  text-shadow: 3px 3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, -3px -3px 0 #000, 3px 0px 0 #000, 0px 3px 0 #000, -3px 0px 0 #000, 0px -3px 0 #000, 3px 3px 3px rgba(0, 0, 0, 0);
   text-decoration: none;
 }
 main > section.section-2 {
@@ -150,13 +152,13 @@ main > section.section-2 p:last-of-type {
   margin: 0;
 }
 main > section.section-3 {
-  background: rgba(1, 42, 62, 0.65);
+  background: rgba(200, 0, 78, 0.65);
 }
 main > section.section-3 iframe {
   margin: 1rem 0 1.5rem;
 }
 main > section.section-4 {
-  background: rgba(0, 169, 158, 0.65);
+  background: rgba(0, 184, 124, 0.65);
 }
 main > section.section-4 h2 {
   margin: 0 0 1.5rem;
@@ -177,7 +179,7 @@ main > section.section-5 .col-lg-6 {
   text-align: left;
 }
 main > section.section-6 {
-  background: rgba(230, 27, 114, 0.65);
+  background: rgba(255, 0, 143, 0.65);
   padding: 6rem 0;
 }
 @media (max-width: 576px) {

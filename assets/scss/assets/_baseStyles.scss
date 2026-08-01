@@ -38,12 +38,12 @@ body {
 }
 
 h2, h3 {
-	@include display-font;
+	@include barlow-bold;
 	line-height: 1.1;
 }
 
 h2 {
-	color: $yellow;
+	color: #fff;
 	font-size: 4.063rem;
 	@media (max-width: 576px) {
 		font-size: 3.438rem;
@@ -68,6 +68,6 @@ strong {
 a {
 	color: #fff;
 	&:hover {
-		color: $yellow;
+		color: $teal;
 	}
 }
